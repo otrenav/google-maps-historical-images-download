@@ -1,0 +1,22 @@
+[tool.black]
+py36 = true
+line-length = 80
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+
+  # The following are specific to Black,
+  # you probably don't want those.
+  | blib2to3
+  | tests/data
+)/
+'''https://www.google.com/maps/@19.3026926,-99.1732644,3a,75y,76.53h,85.57t/data=!3m6!1e1!3m4!1sZsWUM-1g_SBoSbdoJUXaXw!2e0!7i13312!8i6656
